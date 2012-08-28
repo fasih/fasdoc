@@ -1,0 +1,3 @@
+Istallation of fasdoc
+You may like to sudo cp fasdoc.py /usr/bin/fasdoc so that you can just type fasdoc; alternatively, you could add a line to your ~/.bashrc or similar like alias fasdoc='/somepath/fasdoc.py'. Remember to chmod +x your file to make it executable.
+
