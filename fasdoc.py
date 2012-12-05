@@ -121,7 +121,7 @@ def showhelp():
 
     fasdoc --version
 
-  See http://fasdoc.co.cc/ for many more details."""
+  See http://fasdoc.tk/ for many more details."""
   b = ''
   for l in a.splitlines(True):
     if l.startswith(' '*4):
@@ -137,7 +137,7 @@ def standardconf():
     "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
   <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
   <head>
-  <meta name="generator" content="fasdoc, see http://fasdoc.co.cc/" />
+  <meta name="generator" content="fasdoc, see http://fasdoc.tk/" />
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   
   [defaultcss]
@@ -254,7 +254,7 @@ def standardconf():
   </div>
   
   [lastupdated]
-  Page generated |, by <a href="http://fasdoc.co.cc/">fasdoc</a>.
+  Page generated |, by <a href="http://fasdoc.tk/">fasdoc</a>.
 
   [sourcelink]
   (<a href="|">source</a>)
