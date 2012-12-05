@@ -1478,8 +1478,8 @@ def procfile(f):
   out(f.outf, f.conf['bodyend'])
 
   if f.outf is not sys.stdout:
-    # jem: close file here.
-    # jem: XXX this is where you would intervene to do a fast open/close.
+    # fas: close file here.
+    # fas: XXX this is where you would intervene to do a fast open/close.
     f.outf.close()
 
 def main():
